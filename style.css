@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+/* Div Class */
+.for{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 50vw; */
+    /* height: 90vh; */
+    margin-top: 100px;
+    text-align: center;
+}
+/* Section Class */
+.Fom{
+   padding: 30px 50px;
+   border-radius: 5px;
+   /* border: 1px solid black; */
+   box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+   width: 600px;
+}
+
+
+/* For Paragraph display */
+
+.alert{
+    /* background-color: rgba(255, 166, 0, 0.308); */
+    padding: 1px 0px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    visibility:hidden;
+    transition: 0.2s ease-in-out;
+
+}
+
+.alert-success{
+    background-color: rgba(2, 255, 2, 0.068);
+    color:greenyellow;
+
+    font-weight: 600;
+}
+.alert-danger{
+
+    background-color: rgba(128, 0, 0, 0.062);
+    color:maroon;;
+
+    font-weight: 600;
+}
+
+/* Heading tag */
+h2{
+    letter-spacing: 4px;
+    font-weight:900;
+    font-family: 'Open Sans', sans-serif;
+}
+#form{
+    display: flex;
+    margin-top: 20px;
+}
+
+/* Input tag */
+#input{
+    box-sizing: border-box;
+    padding: 7px 7px;
+    width:100% ;
+    background-color: rgba(194, 230, 245, 0.233);
+    border: none;
+    color: black;
+}
+input:focus{
+    outline: none;
+}
+/* Button */
+#butsub{
+    background-color: rgb(174, 226, 248);
+    border: none;
+    padding: 7px 7px;
+    border-radius:0px 3px 3px 0px ;
+    letter-spacing: 2px;
+    cursor: pointer;
+    /* transition: 0.4s ease-in-out; */
+}
+#butsub:hover{
+    background-color: rgb(0, 177, 247);;
+    color:rgb(255, 250, 250)
+}
+
+/* Grocery Items */
+.grocerylist{
+    visibility: hidden;
+    /* display: none; */
+}
+.groceryitems{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 3px 10px;
+    align-items: center;
+
+}
+/* Icons */
+ion-icon{
+    cursor: pointer;
+    margin: 0px 3px;
+}
+
+.edit{
+    color: greenyellow;
+
+}
+.trash{
+    color:  red;
+}
+.cbtn{
+    background-color: white;
+    border: none;
+    margin-top: 40px;
+    color: maroon;
+    letter-spacing: 5px;
+    transition: 0.2s ease-in-out;
+    cursor: pointer;
+    width: 100%;
+    padding: 4px;
+}
+.cbtn:hover{
+    background-color: rgba(128, 0, 0, 0.062);
+
+}
+
+
+
+
+
+
+/* Responsive */
+@media only screen and (max-width: 700px) {
+   .Fom{
+       width: 400px;
+       /* padding: 80px; */
+   }
+  }
